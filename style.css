@@ -34,7 +34,7 @@ body {
 
 .container {
     position: relative;
-    left: 140px;
+    left: 155px;
     top: 25px;
     height: 330px;
     border-style: solid;
@@ -43,6 +43,7 @@ body {
 }
 .title {
    font-size: 40px;
+   font-weight: bold;
    position: relative;
    right: 80px;
    top: 20px;
@@ -57,3 +58,31 @@ body {
     background-color: red;
 }
 
+.container-two{
+    position: relative;
+    left: 345px;
+    top: 40px;
+    
+}
+
+.forecast-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container-three{
+    border-radius: 25px;
+    background-color: #008080;
+    height: 180px;
+    width: 150px;
+    padding-left: 17px;
+    padding-top: 10px;
+    color: white
+}
+.date {
+    font-size: 22px;
+    
+}
+.forecast-details {
+    font-size: 15px
+}
