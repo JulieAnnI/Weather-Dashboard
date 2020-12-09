@@ -32,3 +32,28 @@ body {
     padding-left: 3%;
 }
 
+.container {
+    position: relative;
+    left: 140px;
+    top: 25px;
+    height: 330px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+.title {
+   font-size: 40px;
+   position: relative;
+   right: 80px;
+   top: 20px;
+}
+.details {
+   font-size: 20px;
+   position: relative;
+   left: 5px;
+}
+
+.uv-index {
+    background-color: red;
+}
+
