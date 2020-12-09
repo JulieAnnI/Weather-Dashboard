@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -12,7 +12,7 @@ body {
 
 .sidebar{
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .city-search {
@@ -20,7 +20,7 @@ body {
     font-size: 20px;
 }
 
-.wrapper-history {
+.search-historyBtn {
     font-size: 20px;
     color: #5c5c5c;
     border-width: 1px;
@@ -30,5 +30,5 @@ body {
     padding-top: 4%;
     padding-bottom: 4%;
     padding-left: 3%;
-
 }
+
