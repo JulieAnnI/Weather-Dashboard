@@ -22,19 +22,23 @@
     <main class="row">
         <aside class="sidebar col s3">
             Search for a City:
-            <textarea class="city-search col s8"></textarea>
+            <textarea class="city-search col s8" id="city-input"></textarea>
             <a class="waves-effect waves-light btn saveBtn col s2"><i class="fas fa-search"></i></a>
             <br><br>
             <div class="search-historyBtn"></div>
         </aside>
         <section class="container">
-            <div class="title">
-                Test
-                <div class="details"></div>
+            <div class="title" id="city">              
+                <div class="details">
+                    <div id="temperature"></div>
+                    <div id="humidity"></div>
+                    <div id="wind-speed"></div>
+                    <div id="UVIndex"></div>
+                </div>
             </div>
         </section>
         <section class="row container-two">
-            <div class="forecast-title"></div>
+            <div class="forecast-title">5-Day Forecast:</div>
             
                 
         </section>
@@ -56,6 +60,7 @@
  <!--Links to Javascript-->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
  <script src="script.js"></script>
 </body>
 </html>
